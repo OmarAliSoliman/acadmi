@@ -554,6 +554,7 @@ p {
           }
         }
       }
+
       .login-item {
         a {
           background-color: transparent;
@@ -590,16 +591,20 @@ p {
 
   .person-info {
     text-align: center;
+
     .card-img {
       width: 100px;
       height: 100px;
       border-radius: 50%;
       margin: auto;
+
       img {
         border-radius: 50%;
       }
+
       margin-bottom: 30px;
     }
+
     a {
       margin: 10px;
     }
@@ -638,6 +643,7 @@ p {
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease-in-out;
+
   .loading {
     display: flex;
     gap: 12px;
@@ -700,16 +706,19 @@ p {
   visibility: hidden;
   z-index: -1;
   transition: all 0.3s ease-in-out;
+
   .form-control {
     height: 50px;
     background-color: #fff;
     border: 0.5 solid #000;
   }
+
   .btn-style {
     border-radius: 10px;
     padding: 15px 40px;
     margin-top: 20px;
   }
+
   .close {
     position: absolute;
     top: 50px;
@@ -805,19 +814,23 @@ p {
     }
   }
 }
+
 /* ================================================================ */
 .tio-header-custom-navbar {
   position: absolute;
   top: 0;
   width: 100%;
   z-index: 5;
+
   .top-header {
     padding: 15px 0;
+
     .wrapper {
       display: flex;
       align-items: center;
       justify-content: space-between;
     }
+
     .account {
       .card-img {
         width: 54px;
@@ -827,30 +840,36 @@ p {
         align-items: center;
         justify-content: flex-end;
         margin: auto;
+
         img {
           border-radius: 50%;
         }
       }
+
       h6 {
         font-family: sukarbo;
       }
     }
+
     .social {
       li {
         margin-right: 10px;
       }
     }
   }
+
   .custom-navbar {
     margin-top: 18px;
     border-top: 1px solid #707070;
     border-bottom: 1px solid #707070;
+
     .wrapper {
       display: flex;
       align-items: center;
       justify-content: center;
       position: relative;
     }
+
     .links {
       a {
         color: #000;
@@ -860,6 +879,7 @@ p {
         padding: 30px 0;
         display: inline-block;
         position: relative;
+
         &::after {
           content: "";
           position: absolute;
@@ -872,22 +892,27 @@ p {
           width: 0;
           transition: all 0.3s ease-in-out;
         }
+
         &:hover {
           color: $secondColor;
+
           &::after {
             width: 100%;
           }
         }
       }
+
       li.active {
         a {
           color: $secondColor;
+
           &::after {
             width: 100%;
           }
         }
       }
     }
+
     .btn-style {
       padding-top: 12px;
       padding-bottom: 12px;
@@ -897,6 +922,7 @@ p {
       left: 0;
       top: 50%;
       transform: translate(0, -50%);
+
       &:hover {
         background-color: #fff;
         color: $secondColor;
@@ -904,89 +930,104 @@ p {
     }
   }
 }
-.custom-top-header-custom-header{
+
+.custom-top-header-custom-header {
   position: relative;
   background-color: #fff;
-  .top-header{
-    .account{
+
+  .top-header {
+    .account {
       opacity: 0;
       visibility: hidden;
     }
   }
-  .custom-navbar{
+
+  .custom-navbar {
     display: none;
   }
 }
 
-.headernot-position{
+.headernot-position {
   position: unset;
 }
+
 /* ================================================================ */
 
 /* ================================================================ */
 .header {
   position: relative;
+
   &::after {
     content: "";
     @extend %overlay;
-    background-image: linear-gradient(
-      to bottom,
-      rgba(#ffffff, 0.6),
-      rgba(#4e4e4e, 0)
-    );
+    background-image: linear-gradient(to bottom,
+        rgba(#ffffff, 0.6),
+        rgba(#4e4e4e, 0));
   }
+
   .card-img {
     display: flex;
     align-items: flex-end;
     justify-content: center;
   }
+
   .header-content {
     position: relative;
     z-index: 5;
     text-align: center;
     padding-bottom: 65px;
+
     h5 {
       font-family: sukarbl;
       font-size: 2.5rem;
       color: #fff;
       margin-bottom: 40px;
     }
+
     p {
       font-size: 1.4rem;
       color: #fff;
       margin-bottom: 100px;
       line-height: 35px;
     }
+
     .btn-style {
       padding: 24px 115px;
     }
   }
 }
+
 /* ================================================================ */
 .who-us {
   position: relative;
   overflow: hidden;
+
   .kindle {
     position: absolute;
     bottom: -50px;
     right: 0;
     z-index: -1;
   }
+
   .card-img {
     height: 560px;
+
     img {
       border-bottom-left-radius: 14px;
       border-bottom-right-radius: 14px;
     }
   }
+
   .who-us-content {
     padding-right: 90px;
     padding-left: 50px;
+
     h5 {
       margin-bottom: 20px;
       font-family: sukarbl;
       font-size: 1.5rem;
     }
+
     p {
       line-height: 30px;
       font-size: 1rem;
@@ -997,24 +1038,29 @@ p {
     position: relative;
     top: -200px;
   }
+
   .mnaheg {
     background-color: #60ba46;
     padding: 20px 24px;
     width: 553px;
     max-width: 100%;
     margin: auto;
+
     .head {
       margin-bottom: 25px;
+
       span {
         margin: 0 12px;
         font-size: 1.2rem;
         font-family: sukarbo;
       }
+
       h5 {
         color: #fff;
         font-size: 1.2rem;
       }
     }
+
     p {
       color: #fff;
       font-size: 1rem;
@@ -1022,13 +1068,16 @@ p {
     }
   }
 }
+
 /* ================================================================ */
 .courses {
   background-color: #202e3b;
   padding: 110px 0 40px 0;
+
   .course-content {
     margin-top: 50px;
     position: relative;
+
     // height: 100%;
     h5 {
       color: #fff;
@@ -1037,12 +1086,14 @@ p {
       text-align: center;
       margin-bottom: 20px;
     }
+
     p {
       color: #fff;
       font-size: 1.1rem;
       text-align: center;
       line-height: 40px;
     }
+
     .btn-style {
       padding-top: 12px;
       padding-bottom: 12px;
@@ -1052,6 +1103,7 @@ p {
       display: block;
       width: fit-content;
       border-color: $secondColor;
+
       &:hover {
         background-color: #fff;
         color: $secondColor;
@@ -1059,34 +1111,42 @@ p {
     }
   }
 }
+
 .courses-links {
   ul {
     flex-wrap: wrap;
   }
+
   li {
     width: 50%;
   }
+
   a {
     margin-left: 35px;
     display: block;
+
     .card-img {
       width: 263px;
       height: 231px;
+      max-width: 100%;
       padding: 46px;
       padding-bottom: 10px;
       display: flex;
       align-items: flex-end;
+
       .cou-conten {
         position: relative;
         z-index: 3;
         background-color: #ffffff;
         opacity: 0.8;
         padding: 10px;
+
         h5 {
           text-align: center;
           margin: 0;
           font-size: 0.9rem;
         }
+
         p {
           margin: 0;
           font-size: 0.9rem;
@@ -1094,99 +1154,121 @@ p {
       }
     }
   }
+
   .second-card {
     .card-img {
       height: 325px;
     }
   }
+
   .third-card {
     margin-top: -30px;
+
     .card-img {
       height: 251px;
     }
   }
+
   .fourth-card {
     margin-top: 36px;
+
     .card-img {
       height: 220px;
     }
   }
 }
+
 /* ================================================================ */
 .easy-to-learn {
   padding: 20px 0 50px 0;
   position: relative;
-  .easy-learn-img{
+
+  .easy-learn-img {
     position: absolute;
     bottom: 0;
     left: 50px;
   }
+
   .easy-logo {
     text-align: center;
     margin-bottom: 25px;
+
     img {
       width: 320px;
     }
   }
+
   .easy-to-learn-content {
     margin-bottom: 28px;
+
     h6 {
       font-size: 3rem;
       text-align: center;
       color: $mainColor;
     }
-    h5{
+
+    h5 {
       font-size: 3.5rem;
       text-align: center;
       font-family: sukarbl;
       color: $mainColor;
     }
   }
-  .easy-btn{
+
+  .easy-btn {
     display: flex;
     justify-content: space-between;
-    a{
+
+    a {
       padding-top: 15px;
       padding-bottom: 15px;
       min-width: 250px;
       border-radius: 6px;
       background-color: #60BA46;
       border: 1px solid #60BA46;
-      img{
+
+      img {
         margin-left: 5px;
       }
-      &:hover{
-        background-color:#5fba46c6;
+
+      &:hover {
+        background-color: #5fba46c6;
         color: #fff;
       }
     }
-    .btn-login{
+
+    .btn-login {
       background-color: #009DDE;
       border-color: #009DDE;
-      &:hover{
-        background-color:#009bdea9;
+
+      &:hover {
+        background-color: #009bdea9;
         color: #fff;
       }
     }
   }
 }
-.body-color{
+
+.body-color {
   background-color: #F4F4F4;
 }
+
 /* ================================================================ */
-.most-courses-subsription{
+.most-courses-subsription {
   padding: 34px 0;
 
   background-image: url('../images/sliderbg.png');
   @extend %backgroundImage;
   position: relative;
-  &::after{
+
+  &::after {
     content: "";
     @extend %overlay;
     background-color: #212C81;
     opacity: .97;
   }
-  .head{
+
+  .head {
     text-align: center;
     font-size: 1.2rem;
     color: #fff;
@@ -1195,7 +1277,8 @@ p {
     position: relative;
     z-index: 5;
   }
-  .most-courses-subsription-slider{
+
+  .most-courses-subsription-slider {
     position: relative;
     z-index: 5;
     padding-bottom: 50px;
@@ -1208,6 +1291,7 @@ p {
     align-items: center;
     margin-bottom: 0;
     z-index: 5;
+
     li {
       margin: 0;
       width: 25px;
@@ -1253,8 +1337,9 @@ p {
     }
   }
 }
+
 /* ================================================================ */
-.course-card{
+.course-card {
   background-color: #fff;
   position: relative;
   z-index: 4;
@@ -1262,10 +1347,12 @@ p {
   border-radius: 4px;
   direction: rtl;
   margin: 0 25px;
-  .card-img{
+
+  .card-img {
     height: 181px;
     margin-bottom: 12px;
-    .date{
+
+    .date {
       position: absolute;
       top: 0;
       left: 0;
@@ -1275,18 +1362,21 @@ p {
       font-size: .9rem;
     }
   }
-  .card-body{
-    .price{
-      .newstprice{
+
+  .card-body {
+    .price {
+      .newstprice {
         color: $mainColor;
         font-size: 1rem;
         font-family: sukarbl;
       }
-      .oldprice{
+
+      .oldprice {
         font-size: .9rem;
         margin-left: 5px;
         position: relative;
-        &::after{
+
+        &::after {
           content: "";
           position: absolute;
           top: 50%;
@@ -1297,7 +1387,8 @@ p {
         }
       }
     }
-    .type{
+
+    .type {
       background-color: rgba(33, 44, 129, 0.191);
       padding: 5px;
       border-radius: 5px;
@@ -1305,30 +1396,37 @@ p {
       font-family: sukarbo;
       font-size: .9rem;
     }
-    .card-title{
+
+    .card-title {
       margin-top: 20px;
       margin-bottom: 12px;
       font-family: sukarbl;
       font-size: 1rem;
+      @extend %spcfies-number-of-line;
+      -webkit-line-clamp: 1 !important;
     }
-    .card-text{
+
+    .card-text {
       line-height: 25px;
       @extend %spcfies-number-of-line;
       -webkit-line-clamp: 2 !important;
     }
-    .option{
-      h6{
-        i{
+
+    .option {
+      h6 {
+        i {
           color: #60BA46;
         }
-        span{
+
+        span {
           color: #9F9F9F;
           font-family: sukarbl;
           font-size: .9rem;
         }
       }
-      .addcart{
-        a{
+
+      .addcart {
+        a {
           width: 36px;
           height: 36px;
           background-color: #60BA46;
@@ -1337,16 +1435,19 @@ p {
           align-items: center;
           justify-content: center;
           box-shadow: 0 2px 3px rgba(#000000, 0.3);
-          i{
+
+          i {
             color: #fff;
           }
         }
       }
     }
-    .btn-buy{
+
+    .btn-buy {
       margin-top: 12px;
       text-align: center;
-      .btn-style{
+
+      .btn-style {
         padding-top: 10px;
         padding-bottom: 10px;
         border-radius: 6px;
@@ -1356,100 +1457,119 @@ p {
 }
 
 /* ================================================================ */
-.latest-courses-added{
+.latest-courses-added {
   background-image: unset;
-  &::after{
+
+  &::after {
     display: none;
     background-color: transparent;
   }
-  .head{
-    h5{
+
+  .head {
+    h5 {
       color: $mainColor;
     }
   }
 }
+
 /* ================================================================ */
-.live-courses{
+.live-courses {
   padding-top: 118px;
-  .live-content{
+
+  .live-content {
     background-color: #009CDD;
     border-radius: 17px;
     padding: 32px 60px;
     position: relative;
-    h5{
+
+    h5 {
       color: #fff;
       font-size: 3rem;
       font-family: sukarbl;
     }
-    p{
+
+    p {
       font-size: 1rem;
       color: #fff;
       line-height: 30px;
     }
-    .btn-style{
+
+    .btn-style {
       padding: 12px 54px;
       border: 0;
       border-radius: 6px;
       background-color: $secondColor;
       border-color: $secondColor;
-      &:hover{
+
+      &:hover {
         background-color: #fff;
         color: $secondColor;
       }
     }
-    .live-before{
+
+    .live-before {
       position: absolute;
       top: -70px;
       right: -70px;
-      img{
+
+      img {
         width: 130px;
       }
     }
-    .live-after{
+
+    .live-after {
       position: absolute;
       bottom: -60px;
       left: 40px;
       z-index: -1;
-      img{
+
+      img {
         width: 70px;
       }
     }
-    .live-img{
+
+    .live-img {
       position: absolute;
       top: 50%;
       left: 50px;
       transform: translate(0, -50%);
-      .card-img{
+
+      .card-img {
         width: 392px;
         height: 466px;
-        img{
+
+        img {
           border-radius: 17px;
         }
       }
     }
   }
 }
+
 /* ================================================================ */
-.discount-courses{
+.discount-courses {
   padding: 34px 0;
   margin-top: 102px;
   background-image: url('../images/faris-mohammed-z0UfETjRl0g-unsplash.png');
   @extend %backgroundImage;
   position: relative;
-  &::after{
+
+  &::after {
     content: "";
     @extend %overlay;
     background-color: #FFF0DC;
     opacity: .97;
   }
-  .discount-courses-wraper{
+
+  .discount-courses-wraper {
     background-color: #202E3B;
     border-radius: 17px;
     padding: 18px;
     padding-bottom: 90px;
     position: relative;
     z-index: 5;
-    .head{
+
+    .head {
       text-align: center;
       font-size: 1.2rem;
       color: #fff;
@@ -1459,6 +1579,7 @@ p {
       z-index: 5;
     }
   }
+
   .slick-dots {
     bottom: -60px;
     display: flex;
@@ -1466,6 +1587,7 @@ p {
     align-items: center;
     margin-bottom: 0;
     z-index: 5;
+
     li {
       margin: 0;
       width: 25px;
@@ -1511,28 +1633,34 @@ p {
     }
   }
 }
+
 /* ================================================================ */
-.what-say{
+.what-say {
   padding: 30px 0 128px 0;
-  .head{
+
+  .head {
     text-align: center;
-    h6{
+
+    h6 {
       font-size: 1.3rem;
       color: $mainColor;
       font-family: sukarbl;
     }
-    h5{
+
+    h5 {
       font-size: 1.5rem;
       font-family: sukarbl;
       color: $mainColor;
     }
   }
 }
+
 .teste_card {
   position: relative;
   z-index: 4;
   min-height: 300px;
   margin-top: 35px;
+
   .what-say-card {
     background-color: #fff;
     padding: 10px 43px 85px 43px;
@@ -1544,7 +1672,8 @@ p {
       display: block;
       margin-bottom: 25px;
     }
-    p{
+
+    p {
       font-size: .9rem;
       line-height: 25px;
     }
@@ -1568,6 +1697,7 @@ p {
     }
   }
 }
+
 /* ================================================================ */
 .watch_now_section {
   margin-top: 22px;
@@ -1576,27 +1706,32 @@ p {
   background-image: url('../images/latestnews.png');
   @extend %backgroundImage;
   position: relative;
-  &::after{
+
+  &::after {
     content: "";
     @extend %overlay;
     background-color: #60BA46;
     opacity: .97;
   }
-  .head{
+
+  .head {
     text-align: center;
     position: relative;
     margin-bottom: 31px;
     font-size: 1.2rem;
     z-index: 5;
-    h5{
+
+    h5 {
       color: #fff;
       font-family: sukarbl;
     }
   }
+
   .watch_now_cards {
     // padding: 25px 37px;
     position: relative;
     z-index: 5;
+
     .big_watch {
       .card-img {
         height: 371px;
@@ -1634,7 +1769,7 @@ p {
           align-items: center;
           flex-wrap: wrap;
 
-          > div {
+          >div {
             width: 50%;
 
             span {
@@ -1686,6 +1821,7 @@ p {
 
       .wide_more {
         .time {
+
           span,
           i {
             color: #fff;
@@ -1726,12 +1862,14 @@ p {
       }
     }
   }
-  .see-more{
+
+  .see-more {
     position: relative;
     z-index: 5;
     text-align: center;
     margin-top: 60px;
-    .btn-style{
+
+    .btn-style {
       padding: 15px 100px;
       border-radius: 6px;
     }
@@ -1768,6 +1906,7 @@ p {
       justify-content: space-between;
 
       .time {
+
         span,
         i {
           color: #fff;
@@ -1781,32 +1920,39 @@ p {
     }
   }
 }
+
 /* ================================================================ */
-.companies{
+.companies {
   padding: 35px 0;
-  .head{
+
+  .head {
     text-align: center;
     margin-bottom: 29px;
-    h5{
+
+    h5 {
       font-size: 1.2rem;
       color: $mainColor;
       font-family: sukarbl;
     }
 
   }
-  ul{
+
+  ul {
     flex-wrap: wrap;
     justify-content: space-between;
-    li{
+
+    li {
       margin-right: 5px;
       margin-left: 5px;
       width: fit-content;
-      img{
+
+      img {
         height: 120px;
       }
     }
   }
 }
+
 /* ================================================================ */
 /* ================================================================ */
 /* footer */
@@ -1815,6 +1961,7 @@ p {
   position: relative;
   overflow: hidden;
   margin-top: 90px;
+
   &::after {
     content: "";
     @extend %overlay;
@@ -1823,7 +1970,7 @@ p {
 
   .footer_logo_content {
     width: 80%;
-    
+
 
     img {
       margin-bottom: 15px;
@@ -1881,13 +2028,14 @@ p {
 
         a {
           color: #fff;
-          
+
         }
       }
     }
   }
 
   .footer_follow {
+
     // margin-top: 65px;
     h5 {
       text-align: center;
@@ -1903,19 +2051,20 @@ p {
 
   .download-app {
     margin-top: 50px;
-    a{
+
+    a {
       display: inline-block;
       width: 100px;
       margin: 5px;
     }
-    h5 {
-      
-    }
+
+    h5 {}
   }
 }
+
 /* ================================================================ */
-.login-page{
-  .login-page-wrapper{
+.login-page {
+  .login-page-wrapper {
     background-color: #fff;
     padding: 24px 69px 81px 29px;
     margin-top: 60px;
@@ -1923,26 +2072,31 @@ p {
     border-radius: 16px;
     position: relative;
     overflow: hidden;
-    .login-img{
+
+    .login-img {
       width: 50%;
       position: absolute;
       left: 0px;
       top: 0;
       height: 100%;
-      img{
+
+      img {
         // height: 100%;
       }
     }
-    .login-content{
-      .login-head{
+
+    .login-content {
+      .login-head {
         margin-bottom: 76px;
-        h5{
+
+        h5 {
           text-align: center;
           font-size: 2.2rem;
           color: $mainColor;
           font-family: sukarbl;
         }
-        p{
+
+        p {
           width: 60%;
           text-align: center;
           margin: auto;
@@ -1950,65 +2104,77 @@ p {
         }
       }
 
-      .form-group{
+      .form-group {
         margin-top: 42px;
-        label{
+
+        label {
           font-size: 1.1rem;
           font-family: sukarbo;
           margin-bottom: 13px;
         }
-        .form-control{
+
+        .form-control {
           height: 70px;
           background-color: transparent;
           border: 1px solid #6C6C6C;
           border-radius: 10px;
         }
       }
-      .forget-pass{
+
+      .forget-pass {
         margin-top: 25px;
-        a{
+
+        a {
           color: #6C6C6C;
           text-decoration: underline;
         }
       }
-      .btn-submit{
+
+      .btn-submit {
         margin-top: 70px;
         margin-bottom: 26px;
-        .btn-style{
+
+        .btn-style {
           padding: 21px;
           width: 100%;
         }
       }
-      .dont-have-account{
-        p{
+
+      .dont-have-account {
+        p {
           font-size: 1rem;
           text-align: center;
-          a{
+
+          a {
             font-family: sukarbl;
             color: $mainColor;
           }
         }
       }
-      .skip-visitor{
+
+      .skip-visitor {
         text-align: left;
         position: relative;
         left: -150px;
         bottom: -40px;
-        a{
+
+        a {
           font-family: sukarbl;
           color: $mainColor;
         }
       }
     }
   }
-  .slag{
+
+  .slag {
     font-family: sukarbl;
     font-size: 1.1rem;
     text-align: center;
     color: $mainColor;
   }
-  .form-input{
-    input{
+
+  .form-input {
+    input {
       width: 78px;
       height: 81px;
       border-radius: 7px;
@@ -2019,16 +2185,20 @@ p {
       text-align: center !important;
       font-size: 1.8rem;
       font-family: sukarbo;
-      &:focus{
+
+      &:focus {
         background-color: #fff !important;
       }
     }
   }
-  .approve{
+
+  .approve {
     margin-top: 30px;
-    label{
+
+    label {
       font-size: 1rem;
-      a{
+
+      a {
         font-family: sukarbl;
         color: $mainColor;
       }
@@ -2036,36 +2206,43 @@ p {
   }
 }
 
-.new-account{
-  .login-img{
-    img{
+.new-account {
+  .login-img {
+    img {
       // height: 100%;
     }
   }
 }
+
 /* ================================================================ */
-input[type="number"], input[type="email"]{
+input[type="number"],
+input[type="email"] {
   text-align: right !important;
 }
+
 /* ================================================================ */
-.course-header{
-  .header-content{
+.course-header {
+  .header-content {
     text-align: right;
   }
 }
+
 /* ================================================================ */
-.course-details-page{
+.course-details-page {
   padding: 20px 0 20px 0;
-  .mr-auto{
+
+  .mr-auto {
     margin-right: auto;
   }
-  .course-card{
-    .card-img{
+
+  .course-card {
+    .card-img {
       height: 290px;
       display: flex;
       align-items: center;
       justify-content: center;
-      a{
+
+      a {
         width: 80px;
         height: 80px;
         background-color: rgba(255, 255, 255, 0.71);
@@ -2078,20 +2255,23 @@ input[type="number"], input[type="email"]{
         border-radius: 50%;
       }
     }
-    .btn-buy{
-      .btn-style{
+
+    .btn-buy {
+      .btn-style {
         width: 90%;
       }
     }
-    .option{
-      .addcart{
+
+    .option {
+      .addcart {
         position: absolute;
         top: 30px;
         left: 30px;
       }
     }
   }
-  .type{
+
+  .type {
     background-color: rgba(33, 44, 129, 0.191);
     padding: 10px 50px;
     border-radius: 5px;
@@ -2099,57 +2279,68 @@ input[type="number"], input[type="email"]{
     font-size: .9rem;
     width: fit-content;
     margin-bottom: 20px;
-    h5{
+
+    h5 {
       margin: 0;
     }
   }
-  .details-conten{
+
+  .details-conten {
     padding-top: 40px;
-    h5{
+
+    h5 {
       font-size: 1.5rem;
       font-family: sukarbl;
       color: $mainColor;
       margin-bottom: 24px;
     }
-    p{
+
+    p {
       font-size: 1rem;
       line-height: 30px;
     }
   }
 
-  .course-subjects{
+  .course-subjects {
     margin-top: 108px;
-    .head{
+
+    .head {
       margin-bottom: 24px;
       font-size: 1.5rem;
       color: $mainColor;
-      font-family:sukarbl
+      font-family: sukarbl
     }
-    .accordion{
-      .accordion-item{
+
+    .accordion {
+      .accordion-item {
         margin-bottom: 20px;
         border-radius: 10px;
-        .accordion-header{
+
+        .accordion-header {
           border-radius: 10px;
-          .accordion-button{
+
+          .accordion-button {
             padding: 24px 34px;
             border-radius: 10px;
             font-family: sukarbo;
             font-size: 1rem;
-            &:focus{
+
+            &:focus {
               outline: 0 !important;
               box-shadow: none !important;
             }
           }
         }
       }
-      .accordion-body{
-        ul{
-          li{
+
+      .accordion-body {
+        ul {
+          li {
             padding-right: 16px;
             margin-bottom: 20px;
             position: relative;
-            &:before{
+
+            &:before {
               position: absolute;
               content: "\f104";
               color: #60BA46;
@@ -2157,21 +2348,24 @@ input[type="number"], input[type="email"]{
               top: 0;
               @extend %inilizeFonrtAwsome_Before_After;
             }
-           
+
           }
-          
+
         }
-        p{
+
+        p {
           font-size: .9rem;
 
         }
       }
-      .accordion-button:not(.collapsed){
+
+      .accordion-button:not(.collapsed) {
         box-shadow: none !important;
         background-color: transparent !important;
         color: #000;
       }
-      .accordion-button::after{
+
+      .accordion-button::after {
         background-color: #60BA46;
         width: 35px;
         height: 35px;
@@ -2185,16 +2379,17 @@ input[type="number"], input[type="email"]{
         color: #fff;
       }
 
-      .accordion-button:not(.collapsed)::after{
+      .accordion-button:not(.collapsed)::after {
         content: "\f068";
       }
     }
   }
 
-  .course-videos{
+  .course-videos {
     margin-top: 124px;
-    .head{
-      h5{
+
+    .head {
+      h5 {
         font-family: sukarbl;
         font-size: 1.3rem;
         color: $mainColor;
@@ -2202,67 +2397,83 @@ input[type="number"], input[type="email"]{
       }
     }
   }
-  .course-test{
+
+  .course-test {
     background-image: url('../images/course-test.png');
     @extend %backgroundImage;
     position: relative;
     padding: 56px 30px;
     border-radius: 10px;
     margin-bottom: 90px;
-    &::after{
+
+    &::after {
       content: "";
       @extend %overlay;
       background-color: #60BA46;
       opacity: .97;
     }
-    .test-img, .test-link{
+
+    .test-img,
+    .test-link {
       position: relative;
       z-index: 4;
     }
-    .test-content{
+
+    .test-content {
       position: relative;
       z-index: 4;
       width: 40%;
       margin-right: 50px;
-      h5,p{
+
+      h5,
+      p {
         color: #fff;
       }
-      h5{
+
+      h5 {
         font-size: 2.5rem;
         margin-bottom: 30px;
         font-family: sukarbl;
       }
-      p{
+
+      p {
         line-height: 30px;
         @extend %spcfies-number-of-line;
         -webkit-line-clamp: 4 !important;
       }
     }
-    .test-link{
+
+    .test-link {
       margin-right: 50px;
-      .btn-style{
+
+      .btn-style {
         background-color: #009CDD;
         border-color: #009CDD;
         padding: 12px 80px;
         border-radius: 6px;
-        &:hover{
+
+        &:hover {
           background-color: #fff;
         }
       }
     }
   }
 }
-.video-card{
+
+.video-card {
   margin-bottom: 100px;
-  .card-img{
+
+  .card-img {
     height: 270px;
     display: flex;
     align-items: center;
     justify-content: center;
-    img{
+
+    img {
       border-radius: 5px;
     }
-    a{
+
+    a {
       width: 80px;
       height: 80px;
       background-color: rgba(255, 255, 255, 0.71);
@@ -2276,49 +2487,58 @@ input[type="number"], input[type="email"]{
     }
   }
 }
+
 /* ================================================================ */
-.custom-header{
-  .card-img{
+.custom-header {
+  .card-img {
     height: 60vh;
   }
-  .header-content{
+
+  .header-content {
     align-items: center;
     text-align: center;
   }
 }
-.department-card{
+
+.department-card {
   margin-top: 45px;
   background-color: rgba(#212C81, .11);
   padding: 15px 18px;
   border-radius: 15px;
   display: flex;
   align-items: center;
-  .card-img{
+
+  .card-img {
     width: 128px;
     height: 130px;
     flex: none;
-    img{
+
+    img {
       border-radius: 15px;
     }
   }
-  .card-title{
+
+  .card-title {
     font-size: 1rem;
     font-family: sukarbl;
     margin-right: 12px;
     color: #000;
   }
 }
+
 /* ================================================================ */
-.deparmtnet-details{
+.deparmtnet-details {
   padding: 70px 0;
-  .course-card{
+
+  .course-card {
     margin: 0;
     margin-bottom: 50px;
   }
-  .nav{
+
+  .nav {
     justify-content: center;
 
-    .nav-link{
+    .nav-link {
       padding: 13px 50px;
       border: 1px solid #009CDD;
       border-radius: 12px;
@@ -2327,112 +2547,132 @@ input[type="number"], input[type="email"]{
       color: #fff;
       margin-bottom: 80px;
     }
-    .nav-item:nth-child(1){
-      .nav-link{
+
+    .nav-item:nth-child(1) {
+      .nav-link {
         border: 1px solid #009CDD;
         color: #009CDD;
       }
     }
-    .nav-item:nth-child(2){
-      .nav-link{
+
+    .nav-item:nth-child(2) {
+      .nav-link {
         border: 1px solid #60BA46;
         color: #60BA46;
       }
     }
-    .nav-item:last-child{
-      .nav-link{
+
+    .nav-item:last-child {
+      .nav-link {
         border: 1px solid #BA466D;
         color: #BA466D;
       }
     }
-    .nav-item:nth-child(1){
-      .nav-link.active{
+
+    .nav-item:nth-child(1) {
+      .nav-link.active {
         color: #fff;
         background-color: #009CDD;
       }
     }
 
-    .nav-item:nth-child(2){
-      .nav-link.active{
+    .nav-item:nth-child(2) {
+      .nav-link.active {
         color: #fff;
         background-color: #60BA46;
       }
     }
 
-    .nav-item:nth-child(3){
-      .nav-link.active{
+    .nav-item:nth-child(3) {
+      .nav-link.active {
         color: #fff;
         background-color: #BA466D;
       }
     }
   }
 }
+
 /* ================================================================ */
-.rigister-course{
+.rigister-course {
   padding: 50px 0;
   padding-bottom: 130px;
 }
-.box-style{
+
+.box-style {
   background-color: #fff;
   border-radius: 15px;
   padding: 20px 45px 60px 45px;
-  h5{
+
+  h5 {
     font-size: 1.3rem;
     color: $mainColor;
     font-family: sukarbl;
     margin-bottom: 29px;
   }
-  p{
+
+  p {
     font-size: 1.1rem;
     font-family: sukarbo;
   }
-  .form-group{
+
+  .form-group {
     margin-top: 40px;
-    label{
+
+    label {
       color: $mainColor;
       margin-bottom: 11px;
-      span{
+
+      span {
         font-family: sukarbo;
         margin-right: 5px;
       }
     }
-    .form-control{
+
+    .form-control {
       height: 60px;
       background-color: #F7F7F7;
       border-radius: 10px;
       border: .5px solid #212C81;
     }
-    .nice-select{
+
+    .nice-select {
       height: 60px;
       background-color: #F7F7F7;
       border: .5px solid #212C81;
       border-radius: 10px;
       text-align: right !important;
       line-height: 60px;
-      .list{
+
+      .list {
         width: 100%;
-        .option{
+
+        .option {
           text-align: right;
         }
       }
     }
   }
-  .btn-submit{
+
+  .btn-submit {
     text-align: center;
     margin-top: 80px;
-   .btn-style{
-    padding: 12px 100px;
-    border-radius: 6px;
-   }
+
+    .btn-style {
+      padding: 12px 100px;
+      border-radius: 6px;
+    }
   }
-  .course_img{
+
+  .course_img {
     border: .5px solid rgba(112, 112, 112, 0.539);
     padding: 10px;
-    .card-img{
+
+    .card-img {
       height: 208px;
     }
-    ul{
-      li{
+
+    ul {
+      li {
         margin-top: 15px;
         font-family: sukarbo;
         font-size: .8rem;
@@ -2440,21 +2680,24 @@ input[type="number"], input[type="email"]{
     }
   }
 
-  .detinfo{
+  .detinfo {
     border: .5px dashed rgba(112, 112, 112, 0.539);
     padding: 22px;
     margin-top: 25px;
-    h5{
+
+    h5 {
       font-size: 1rem;
       margin-bottom: 0;
     }
-    li{
+
+    li {
       margin-top: 15px;
       font-family: sukarbo;
       font-size: .8rem;
     }
   }
 }
+
 /* ================================================================ */
 .test-page {
   padding-bottom: 45px;
@@ -2472,16 +2715,19 @@ input[type="number"], input[type="email"]{
     padding: 20px 46px;
     margin-top: 17px;
     position: relative;
-    .testbox-flower{
+
+    .testbox-flower {
       position: absolute;
       bottom: 0;
       right: 0;
       z-index: -1;
     }
+
     h5 {
       font-size: 1.1rem;
       color: #60BA46;
       font-family: sukarbl;
+
       span {
         color: $secondColor;
       }
@@ -2537,10 +2783,8 @@ input[type="number"], input[type="email"]{
     .card .number h3 {
       font-weight: 200;
       font-size: 5.5rem;
-      
-      span{
-        
-      }
+
+      span {}
     }
 
     .card .number h3 span {
@@ -2566,6 +2810,7 @@ input[type="number"], input[type="email"]{
     width: fit-content;
     margin: auto;
     margin-top: 50px;
+
     p {
       font-size: 1.7rem;
     }
@@ -2584,14 +2829,16 @@ input[type="number"], input[type="email"]{
     }
   }
 
-  .headq{
+  .headq {
     font-family: sukarbl;
 
   }
+
   .test-img {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 70px;
+
     h5 {
       font-size: 1.6rem;
       margin-top: 18px;
@@ -2607,6 +2854,7 @@ input[type="number"], input[type="email"]{
       border-color: $mainColor;
       border-radius: 26px;
       padding: 14px 30px;
+
       &:hover {
         background-color: #fff;
         color: $mainColor;
@@ -2630,7 +2878,7 @@ input[type="number"], input[type="email"]{
     padding: 43px 0 36px 0;
 
     h6 {
-      color: $mainColor ;
+      color: $mainColor;
       font-size: 1.5rem;
       margin-bottom: 50px;
       margin-top: 50px;
@@ -2638,15 +2886,17 @@ input[type="number"], input[type="email"]{
     }
   }
 
-  .questions{
+  .questions {
     display: flex;
     flex-wrap: wrap;
-    .form-group{
+
+    .form-group {
       width: 50%;
       margin-bottom: 26px;
     }
   }
 }
+
 .test-question {
   padding-right: 24px;
 
@@ -2697,10 +2947,11 @@ input[type="number"], input[type="email"]{
     }
   }
 
-  input[type="radio"]:checked ~ .card-check .smallcircle {
+  input[type="radio"]:checked~.card-check .smallcircle {
     background-color: $mainColor;
   }
 }
+
 /* ================================================================ */
 /* ================================================================ */
 .myaccount-profile {
@@ -2779,7 +3030,7 @@ input[type="number"], input[type="email"]{
   }
 }
 
-.profile-left-data.profile-chats{
+.profile-left-data.profile-chats {
   padding: 90px 0;
 }
 
@@ -2991,34 +3242,41 @@ input[type="number"], input[type="email"]{
     }
   }
 }
-.courses-rigi{
+
+.courses-rigi {
   padding-top: 100px;
-  .ri-head{
-    h5{
+
+  .ri-head {
+    h5 {
       font-family: sukarbl;
       color: $mainColor;
       font-size: 1.3rem;
     }
   }
-  .course-card{
+
+  .course-card {
     margin-bottom: 40px !important;
     margin: 0;
-    .card-text{
+
+    .card-text {
       font-size: .9rem;
     }
   }
 }
 
-.profile-certificate{
+.profile-certificate {
   padding-top: 100px;
-  .course-card{
+
+  .course-card {
     margin-bottom: 40px !important;
     margin: 0;
-    .card-text{
+
+    .card-text {
       font-size: .9rem;
     }
-    .card-img{
-      .delete{
+
+    .card-img {
+      .delete {
         position: absolute;
         top: 10px;
         left: 10px;
@@ -3026,20 +3284,22 @@ input[type="number"], input[type="email"]{
         background-color: rgba(255, 255, 255, 0.657);
         padding: 10px;
         font-size: 1.2rem;
-        i{
+
+        i {
           color: #EE362E;
         }
       }
     }
-    .btn-style{
+
+    .btn-style {
       border-radius: 24px !important;
       background-color: #009CDD;
       border-color: #009CDD;
       font-size: .9rem;
     }
 
-    .btn-buy2{
-      .btn-style{
+    .btn-buy2 {
+      .btn-style {
         width: 70%;
       }
     }
@@ -3048,22 +3308,25 @@ input[type="number"], input[type="email"]{
 
 
 .notification-page {
-  li {
-  }
+  li {}
+
   .wrapper {
     background-color: #fff;
     border-radius: 20px;
     padding: 40px;
+
     ul {
       li {
         a {
           margin-bottom: 30px;
           padding: 18px;
           display: block;
+
           p {
             padding-right: 28px;
             @extend %spcfies-number-of-line;
             position: relative;
+
             &::before {
               content: "";
               position: absolute;
@@ -3076,10 +3339,12 @@ input[type="number"], input[type="email"]{
               border-radius: 50%;
             }
           }
+
           .date {
             padding-right: 28px;
             color: #5c5c5c;
           }
+
           &.active {
             background-color: rgba(rgba(0, 206, 124, 0.42), 0.17);
           }
@@ -3088,11 +3353,13 @@ input[type="number"], input[type="email"]{
     }
   }
 }
+
 /* ================================================================ */
 .profile-settings {
   background-color: #fff;
   padding: 30px;
   margin-top: 100px;
+
   h5 {
     margin-bottom: 15px;
   }
@@ -3103,18 +3370,20 @@ input[type="number"], input[type="email"]{
     margin-top: 10px;
   }
 }
+
 /* ================================================================ */
-.terms-condition-navbar{
-  .top-header{
+.terms-condition-navbar {
+  .top-header {
     background-color: #fff;
   }
-  .custom-navbar{
+
+  .custom-navbar {
     border: 0;
-    .login-btn{
-      
-    }
+
+    .login-btn {}
   }
 }
+
 /* ================================================================ */
 .terms-condition-page {
   .terms-condition-content {
@@ -3123,6 +3392,7 @@ input[type="number"], input[type="email"]{
         margin-bottom: 25px;
         position: relative;
         padding-right: 30px;
+
         &::before {
           content: "";
           position: absolute;
@@ -3136,15 +3406,17 @@ input[type="number"], input[type="email"]{
         }
       }
     }
-   
-    p{
+
+    p {
       line-height: 30px;
       font-size: 1rem;
     }
   }
-  .about-patform-head{
+
+  .about-patform-head {
     margin-top: 65px;
-    h5{
+
+    h5 {
       font-size: 1.2rem;
       color: $mainColor;
       font-family: sukarbl;
@@ -3152,6 +3424,7 @@ input[type="number"], input[type="email"]{
     }
   }
 }
+
 /* ================================================================ */
 .faq-page {
   padding-top: 41px;
@@ -3219,49 +3492,61 @@ input[type="number"], input[type="email"]{
 }
 
 /* ================================================================ */
-.contact-us-page{
+.contact-us-page {
   padding: 60px 0;
-  .contact-wrapper{
+
+  .contact-wrapper {
     padding: 38px;
     border: 1px solid #7070706e;
     background-color: #fff;
   }
-  form{
-    label{
+
+  form {
+    label {
       font-size: 1rem;
       font-family: sukarbo;
       margin-bottom: 5px;
     }
-    .form-group{
+
+    .form-group {
       margin-bottom: 20px;
     }
-    .form-control, .nice-select{
+
+    .form-control,
+    .nice-select {
       height: 60px;
       background-color: #F7F7F7;
       border: .5px solid #212C81;
-      .list{
+
+      .list {
         width: 100%;
-        .option{
+
+        .option {
           width: 100%;
         }
       }
     }
-    .nice-select{
+
+    .nice-select {
       text-align: right !important;
       line-height: 60px;
     }
-    textarea.form-control{
+
+    textarea.form-control {
       height: 203px;
       resize: none;
     }
-    .btn-submit{
+
+    .btn-submit {
       text-align: left;
     }
-    .btn-style{
+
+    .btn-style {
       padding: 15px 60px;
     }
   }
-  .contact-info{
+
+  .contact-info {
     background-image: url('../images/contactinfo.png');
     @extend %backgroundImage;
     position: relative;
@@ -3269,36 +3554,467 @@ input[type="number"], input[type="email"]{
     border-radius: 10px;
     margin-bottom: 90px;
     height: 100%;
-    &::after{
+
+    &::after {
       content: "";
       @extend %overlay;
       background-image: linear-gradient(to left, rgba(#60BA46, .82), rgba(#305D23, 1));
       opacity: .97;
     }
-    .logo{
+
+    .logo {
       position: relative;
       z-index: 6;
       text-align: center;
-      img{
+
+      img {
         width: 200px;
       }
     }
-    ul{
+
+    ul {
       position: relative;
       z-index: 5;
       margin-top: 80px;
-      li{
+
+      li {
         margin-bottom: 30px;
-        span, a{
+
+        span,
+        a {
           color: #fff;
         }
-        i{
+
+        i {
           color: #fff;
         }
       }
     }
   }
 }
+
+/* ================================================================ */
+.payment-page {
+  padding: 25px 0 150px 0;
+
+  .head {
+    margin-bottom: 39px;
+
+    h5 {
+      font-size: 1.6rem;
+      color: $mainColor;
+      font-family: sukarbl;
+
+    }
+  }
+
+  .box-style {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 34px 34px;
+
+    .form-group {
+      margin-top: 0;
+      margin-bottom: 30px;
+
+      .form-control {
+        height: 60px !important;
+        background-color: #fff !important;
+      }
+
+      .nice-select {
+        height: 60px !important;
+        background-color: #fff !important;
+      }
+    }
+  }
+
+  .course-card {
+    padding: 60px 30px;
+    border-radius: 20px;
+
+    .card-img {
+      height: 245px;
+      position: relative;
+
+      .play-btn {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 3;
+        transform: translate(-50%, -50%);
+        background-color: rgba(#fff, 0.87);
+        width: 67px;
+        height: 67px;
+        border-radius: 50%;
+        color: #305D23;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+.payment-methods {
+  label {
+    .card-method {
+      width: 77px;
+      height: 77px;
+      border-radius: 50%;
+      background-color: #F2F2F2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    input {
+      position: absolute;
+      top: 0;
+      visibility: hidden;
+      opacity: 0;
+    }
+  }
+
+  input[type="radio"]:checked~.card-method {
+    border: 1px solid $mainColor;
+    box-shadow: 0 3px 5px rgba(#0049C8, .44);
+  }
+
+}
+
+/* ================================================================ */
+.payment-status {
+  padding: 32px 0 150px 0;
+
+  .status-img {
+    margin-top: 18px;
+    margin-bottom: 43px;
+  }
+
+  .aprrove-cancel {
+    display: flex;
+    align-items: center;
+
+    .btn-approve {
+      background-color: #60BA46;
+      padding: 12px 60px;
+      border-color: #60BA46;
+      border-radius: 8px;
+    }
+
+    .btn-cancel {
+      background-color: #910000;
+      padding: 12px 60px;
+      border-color: #910000;
+      border-radius: 8px;
+      margin-right: 11px;
+    }
+  }
+
+  .info {
+    li {
+      position: relative;
+      padding-right: 30px;
+      margin-top: 40px;
+
+      .card-icon {
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        i {
+          color: #404040;
+        }
+      }
+
+      .card-body {
+        h5 {
+          color: #910000;
+          margin-bottom: 10px;
+        }
+
+        p {
+          color: $mainColor;
+
+          span {
+            margin-left: 30px;
+            color: #000;
+          }
+
+          .firstspan {
+            color: $mainColor;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* ================================================================ */
+.live-page {
+  padding: 140px 0 40px 0;
+
+  .box-style {
+    border: .5px solid #707070;
+
+    p {
+      color: $mainColor;
+      margin-bottom: 15px;
+    }
+
+    li {
+      margin-bottom: 10px;
+
+      span {
+        margin-left: 30px;
+        font-family: sukarbo;
+      }
+    }
+  }
+
+  .live-video {
+    .card-img {
+      height: 470px;
+
+      img {
+        border-radius: 26px;
+      }
+
+      .options {
+        position: relative;
+        z-index: 4;
+        padding-bottom: 23px;
+
+        li {
+          width: 52px;
+          height: 52px;
+          background-color: #fff;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 5px;
+        }
+
+        .hangup {
+          background-color: #910000;
+        }
+      }
+    }
+  }
+}
+
+/* ================================================================ */
+@media(max-width: 1024px) {
+  html {
+    font-size: 14px;
+  }
+
+  .tio-header-custom-navbar {
+    position: relative;
+  }
+
+  .header .header-content .btn-style {
+    padding: 15px 100px;
+  }
+
+  .header .header-content p {
+    margin-bottom: 50px;
+  }
+
+  .header .card-img {
+    align-items: center;
+  }
+
+  .easy-to-learn .easy-learn-img {
+    left: 0;
+  }
+
+  .easy-to-learn .easy-to-learn-content h5 {
+    font-size: 2.9rem;
+  }
+
+  .easy-to-learn .easy-to-learn-content h6 {
+    font-size: 2rem;
+  }
+
+  .easy-to-learn .easy-btn a {
+    min-width: 210px;
+  }
+
+  .course-card .card-img {
+    height: 130px;
+  }
+
+  .course-card .card-body .card-text {
+    font-size: .95rem;
+  }
+
+  .course-card {
+    margin: 0 10px;
+  }
+
+  .live-courses .live-content .live-img .card-img {
+    width: 350px;
+  }
+
+  .companies ul {
+    justify-content: center;
+  }
+
+}
+
+/* ================================================================ */
+@media(max-width: 991px) {
+  .tio-header-custom-navbar .custom-navbar .btn-style {
+    position: relative;
+    transform: none;
+  }
+
+  .tio-header-custom-navbar .custom-navbar .links a {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .who-us .card-img {
+    height: 360px;
+  }
+
+  .who-us .who-us-content {
+    margin-top: 50px;
+  }
+
+  .courses {
+    padding: 20px 0 40px 0;
+  }
+
+  .courses .course-content .btn-style {
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .courses-links a .card-img {
+    margin: auto;
+  }
+
+  .easy-to-learn .easy-learn-img {
+    z-index: -1;
+  }
+
+  .live-courses .live-content .live-img {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+    ;
+  }
+
+  .live-courses .live-content .live-img .card-img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .teste_card {
+    margin-bottom: 50px;
+  }
+
+  .watch_now_section .watch_now_cards .watch_video_scrollable {
+    margin-top: 30px;
+  }
+}
+
+/* ================================================================ */
+@media(max-width: 600px) {
+  html {
+    font-size: 12px;
+  }
+
+  .tio-header-custom-navbar .custom-navbar .links,
+  .tio-header-custom-navbar .custom-navbar .btn-style {
+    display: none;
+  }
+
+  .easy-to-learn .easy-btn {
+    flex-wrap: wrap;
+    justify-content: center;
+
+    a {
+      margin-bottom: 10px;
+    }
+  }
+
+  .tio-header-custom-navbar .custom-navbar .wrapper {
+    justify-content: flex-start;
+    padding: 10px 0;
+  }
+
+  .menu_icon {
+    display: flex;
+  }
+
+  .top-header {
+    .social {
+      display: none;
+    }
+  }
+
+  .who-us .who-us-content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .who-us .mnaheg-row {
+    top: 0;
+  }
+
+  .courses-links a .card-img {
+    padding: 0;
+  }
+
+  .easy-to-learn .easy-logo img {
+    width: 200px;
+  }
+
+  .live-courses .live-content {
+    padding: 32px 20px;
+  }
+
+  .live-courses .live-content .live-img .card-img {
+    height: 250px;
+  }
+
+  .wide_news_card {
+    flex-direction: column;
+  }
+
+  .watch_now_section .watch_now_cards .wide_news_card .wide_body {
+    margin-top: 0;
+    padding-right: 0;
+  }
+
+  .courses-links a {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .header::after {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(78, 78, 78, 0.7));
+  }
+}
+
+/* ================================================================ */
+
+/* ================================================================ */
+
+/* ================================================================ */
+
+/* ================================================================ */
+
+/* ================================================================ */
+
+/* ================================================================ */
+
 /* ================================================================ */
 
 /* ================================================================ */

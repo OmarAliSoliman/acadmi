@@ -20,8 +20,8 @@ $(document).ready(function () {
       arrows: false,
       dots: true,
       slidesToScroll: 1,
-      infinite: true,
-      autoplay: true,
+      infinite: false,
+      autoplay: false,
       autoplaySpeed: 1000,
       responsive: [
         {
