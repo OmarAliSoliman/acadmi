@@ -145,6 +145,8 @@ $(document).ready(function () {
     })
   }
 
+  $("html").addClass("splash-active");
+
 });
 
 
