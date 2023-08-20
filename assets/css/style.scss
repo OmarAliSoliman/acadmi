@@ -4087,6 +4087,15 @@ input[type="email"] {
   .box-style{
     padding: 20px 25px 60px 25px;;
   }
+  .test-page .teste-card{
+    padding: 15px;
+  }
+  .test-question{
+    padding-right: 0;
+  }
+  .test-page .questions .form-group{
+    width: 100%;
+  }
 }
 
 @media(max-width: 500px){
@@ -4101,6 +4110,21 @@ input[type="email"] {
       margin-top: 10px;
     }
   }
+  .payment-page .payment-methods{
+    flex-wrap: wrap;
+    justify-content: center;
+    .form-group{
+      width: 50%;
+      text-align: center;
+      margin: auto;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+  }
+  .box-style .btn-submit .btn-style{
+    padding: 12px 50px;
+  }
+
 }
 
 /* ================================================================ */
