@@ -2342,7 +2342,7 @@ input[type="email"] {
 
             &:before {
               position: absolute;
-              content: "\f104";
+              content: "\f0d9";
               color: #60BA46;
               right: 0;
               top: 0;
@@ -3805,6 +3805,24 @@ input[type="email"] {
   }
 }
 
+@media(max-width: 1200px) {
+  .profile-left-data {
+    padding: 0 12px;
+  }
+  .profile-settings{
+    form{
+      padding: 15px;
+    }
+  }
+  .new-account, .login-page{
+    .login-img{
+      img{
+        height: 100%;
+      }
+    }
+  }
+}
+
 /* ================================================================ */
 @media(max-width: 1024px) {
   html {
@@ -3922,6 +3940,40 @@ input[type="email"] {
   .watch_now_section .watch_now_cards .watch_video_scrollable {
     margin-top: 30px;
   }
+
+  .contact-us-page .contact-info {
+    margin-top: 30px;
+  }
+
+  .contact-us-page .contact-wrapper {
+    padding: 38px 15px;
+  }
+
+  .course-details-page .course-test {
+    flex-direction: column;
+
+    .test-content {
+      width: 100%;
+    }
+
+    .test-img {
+      width: 200px;
+      margin-bottom: 30px;
+    }
+  }
+
+  .deparmtnet-details .nav .nav-link {
+    margin-bottom: 30px;
+  }
+
+  .login-page .login-page-wrapper .login-img {
+    display: none;
+  }
+  .box-style{
+    margin-top: 30px;
+  }
+ 
+
 }
 
 /* ================================================================ */
@@ -4000,6 +4052,54 @@ input[type="email"] {
 
   .header::after {
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(78, 78, 78, 0.7));
+  }
+
+  .faq-page .wrapper {
+    padding: 30px 20px;
+  }
+
+  .login-page .login-page-wrapper .login-content .login-head p {
+    width: 100%;
+  }
+
+  .login-page .login-page-wrapper {
+    padding: 30px;
+  }
+
+  .live-page .live-video .card-img {
+    margin-top: 30px;
+  }
+
+  .notification-page .wrapper {
+    padding: 10px;
+  }
+
+  .profile-left-data {
+    padding: 0 0px;
+  }
+  .login-page .login-page-wrapper .login-content .form-group .form-control{
+    width: 50px;
+    height: 50px;
+  }
+  .payment-status .info {
+    justify-content: flex-start !important;
+  }
+  .box-style{
+    padding: 20px 25px 60px 25px;;
+  }
+}
+
+@media(max-width: 500px){
+  .payment-status .aprrove-cancel .btn-cancel{
+    margin-right: 0;
+  }
+  .payment-status .aprrove-cancel{
+    flex-wrap: wrap;
+    justify-content: center;
+    a{
+      margin: 0;
+      margin-top: 10px;
+    }
   }
 }
 
