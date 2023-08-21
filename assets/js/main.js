@@ -16,7 +16,7 @@ $(document).ready(function () {
   if($(".most-courses-subsription-slider").length){
     $(".most-courses-subsription-slider").slick({
       slidesToShow: 3.4,
-      rtl: true,
+      rtl: currentDir == "rtl" ? true:false,
       arrows: false,
       dots: true,
       slidesToScroll: 1,
