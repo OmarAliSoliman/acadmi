@@ -3274,6 +3274,38 @@ input[type=email] {
   }
 }
 /* ================================================================ */
+.depcolor1 {
+  background-color: rgba(33, 44, 129, 0.11);
+}
+
+.depcolor2 {
+  background-color: rgba(96, 186, 70, 0.22);
+}
+
+.depcolor3 {
+  background-color: rgba(242, 126, 25, 0.15);
+}
+
+.depcolor4 {
+  background-color: rgba(129, 33, 103, 0.11);
+}
+
+.depcolor5 {
+  background-color: rgba(186, 70, 109, 0.14);
+}
+
+.depcolor6 {
+  background-color: rgba(6, 46, 23, 0.14);
+}
+
+.depcolor7 {
+  background-color: rgba(0, 156, 221, 0.15);
+}
+
+.depcolor8 {
+  background-color: rgba(154, 115, 65, 0.2);
+}
+
 /* ================================================================ */
 /* ================================================================ */
 /* ================================================================ */
