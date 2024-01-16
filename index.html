@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="./assets/css/all.min.css" />
   <link rel="stylesheet" href="./assets/css/aos.css" />
 
-    <!-- replace bootstrap.min.css -->
+  <!-- replace bootstrap.min.css -->
   <link rel="stylesheet" href="./assets/css/bootstrap.rtl.min.css" />
   <link rel="stylesheet" href="./assets/css/nice-select.css" />
   <link rel="stylesheet" href="./assets/css/slick.css">
@@ -20,10 +20,11 @@
 
   <!-- replace style-en.css -->
   <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/custom-css.css" />
   <title>Home</title>
 </head>
 
-<body class="body-color">
+<body>
 
   <div class="splashscreen">
     <div class="loading">
@@ -48,6 +49,11 @@
         </div>
       </div>
       <div class="side-wrapper">
+        <div class="card-img">
+          <div class="img-parent">
+            <img src="./assets/images/person.png" alt="">
+          </div>
+        </div>
         <div class="side-links">
           <ul class="list-unstyled mb-0">
             <li class="active"><a href="">الرئيسية</a></li>
@@ -55,6 +61,12 @@
             <li class="nav-item "><a class="nav-link" href="">الأقسام</a></li>
             <li class="nav-item "><a class="nav-link" href="">الدورات</a></li>
             <li class="nav-item "><a class="nav-link" href="">تواصل معنا</a></li>
+            <li class="nav-item ">
+              <select name="" id="" class="custom-select">
+                <option value="">العربيه</option>
+                <option value="">الانجليزيه</option>
+              </select>
+            </li>
             <li class="login-item"><a href="" class="btn-style btn-style-rounded ">تسجيل الدخول</a></li>
           </ul>
         </div>
@@ -76,7 +88,7 @@
     </div>
   </div>
 
-  <div class="tio-header-custom-navbar">
+  <!-- <div class="tio-header-custom-navbar">
     <div class="top-header">
       <div class="container">
         <div class="wrapper">
@@ -107,7 +119,6 @@
         <div class="wrapper">
           <div class="menu_icon" data-cursor="-icon">
             <div id="nav-icon1">
-              <!-- <span></span> -->
               <span></span>
               <span></span>
             </div>
@@ -127,12 +138,69 @@
         </div>
       </div>
     </div>
+  </div> -->
+
+
+  <div class="new_navbar">
+    <div class="container">
+      <div class="logo_links d-flex align-items-center justify-content-between">
+        <div class="d-flex align-items-center">
+          <div class="logo">
+            <img src="./assets/images/logo.svg" alt="">
+          </div>
+          <div class="links">
+            <ul class="list-unstyled d-flex align-items-center">
+              <li class="nav-item"><a class="nav-link" href="">
+                  <i class="fas fa-home"></i>
+                </a></li>
+              <li class="nav-item"><a class="nav-link" href="">من نحن</a></li>
+              <li class="nav-item sub_parent">
+                <a class="nav-link">الخدمات</a>
+                <ul class="list-unstyled submenu">
+                  <li><a href="">التوعية</a></li>
+                  <li><a href="">الدورات</a></li>
+                  <li><a href="">التأهيل المهني</a></li>
+                  <li><a href="">الاستشارات</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="">الدورات</a></li>
+              <li class="nav-item"><a class="nav-link" href="">تواصل معنا</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="menu_icon" data-cursor="-icon">
+          <div id="nav-icon1">
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="lang_pic d-flex align-items-center justify-content-end">
+          <div class="lang d-flex align-items-center">
+            <select name="" class="custom-select" id="">
+              <option value="">العربيه</option>
+              <option value="">الانجليزيه</option>
+            </select>
+            <img src="./assets/images/flag.png" alt="">
+          </div>
+          <div class="pictur">
+            <div class="card-img">
+              <div class="img-parent">
+                <img src="./assets/images/person.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+
 
   <div class="header">
     <div class="card-img">
       <div class="img-parent">
-        <img src="./assets/images/header.png" alt="">
+        <img
+          src="./assets/images/young-arab-man-works-diligently-his-desk-browsing-internet-his-digital-laptop-engrossed-online-webpage-he-takes-notes-researches-embodying-professiona.png"
+          alt="">
       </div>
       <div class="container">
         <div class="header-content">
@@ -141,7 +209,7 @@
             تنمية و تطوير مهاراتك في تشخيص و تدريب الطفل المتوحد هي أحد محصلات برامج التدريب لدينا إضافة الي تطوير
             قدراتك التعليمية و التربوية
           </p>
-          <a href="" class="btn-style">تعلم عن بعد</a>
+          <!-- <a href="" class="btn-style">تعلم عن بعد</a> -->
         </div>
       </div>
     </div>
@@ -149,7 +217,83 @@
 
 
 
-  <div class="who-us">
+  <div class="new-who-us" style="background-image: url('./assets/images/kiwihug-cqhXfrRHCPo-unsplash.png');">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="who-contet">
+            <h5>من نحن</h5>
+            <h5>عن أكاديمية شمعة للتدريب</h5>
+            <p class="col-lg-10">
+              تسعى أكاديمية شمعة لتأهيل وتدريب ذوي الإحتياجات الخاصة لتمكينهم من سوق العمل، وتتميز الأكاديمية بتقديم
+              العديد من البرامج التدريبية المتخصصة والتي تُعنى بالأسر لمساعدتهم في تعلم فنون التعامل مع ذوي الإحتياجات
+              الخاصة أسرياً و أجتماعياً، بالإضافة إلى خدمة الإستشارات المهنية المتخصصة
+            </p>
+            <a href="" class="btn-style">المزيد</a>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="who-icons">
+            <div class="icon_card d-flex align-items-center">
+              <div class="icon">
+                <img src="./assets/images/icon11.svg" alt="">
+              </div>
+              <div class="card-body">
+                <h5>الرؤية</h5>
+                <p>أن نكون الأكاديمية الرائدة في تحسين جودة حياة ذوي الاحتياجات الخاصة.</p>
+              </div>
+            </div>
+
+            <div class="icon_card d-flex align-items-center">
+              <div class="icon">
+                <img src="./assets/images/icon12.svg" alt="">
+              </div>
+              <div class="card-body">
+                <h5>الرسالة</h5>
+                <p>إضافة قيمة للتدريب والتعليم في المملكة العربية السعودية</p>
+              </div>
+            </div>
+
+
+            <div class="icon_card d-flex align-items-center">
+              <div class="icon">
+                <img src="./assets/images/icon13.svg" alt="">
+              </div>
+              <div class="card-body">
+                <h5>القيم</h5>
+                <ul class="list-unstyled d-flex align-items-center justify-content-between">
+                  <li>
+                    <p>السلامة</p>
+                  </li>
+                  <li>
+                    <p>المصداقية</p>
+                  </li>
+                  <li>
+                    <p>الإستدامة</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+
+            <div class="icon_card d-flex align-items-center">
+              <div class="icon">
+                <img src="./assets/images/icon14.svg" alt="">
+              </div>
+              <div class="card-body">
+                <h5>الاهداف</h5>
+                <p>خلق آفاق جديدة لمفاهيم تعليم وتدريب ذوي الإحتياجات الخاصة</p>
+                <p>تعزيز دوافع التدريب وتهيئتهم ومساندتهم والتأكد من استدامتهم بالعمل</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="who-us">
     <div class="kindle">
       <img src="./assets/images/kindle.svg" alt="">
     </div>
@@ -216,10 +360,10 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
 
-  <div class="courses">
+  <!-- <div class="courses">
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
@@ -294,9 +438,9 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
-  <div class="easy-to-learn">
+  <!-- <div class="easy-to-learn">
     <div class="easy-learn-img">
       <img
         src="./assets/images/kisspng-child-educational-toys-educational-toys-learning-5af535e2eae369.9512271815260195549621.png"
@@ -325,13 +469,13 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
 
   <div class="most-courses-subsription">
     <div class="container">
       <div class="head">
-        <h5>أكثر الدورات اشتراكا</h5>
+        <h5>الدورات</h5>
       </div>
 
     </div>
@@ -501,7 +645,7 @@
   </div>
 
 
-
+  <!-- 
   <div class="most-courses-subsription latest-courses-added">
     <div class="container">
       <div class="head">
@@ -517,9 +661,6 @@
               <div class="img-parent">
                 <img src="./assets/images/courseimg6.png" alt="">
               </div>
-              <!-- <div class="date">
-                2:00 مساءا
-              </div> -->
             </div>
             <div class="card-body">
               <div class="type-price d-flex align-items-center justify-content-between">
@@ -597,9 +738,7 @@
               <div class="img-parent">
                 <img src="./assets/images/courseimg7.png" alt="">
               </div>
-              <!-- <div class="date">
-                2:00 مساءا
-              </div> -->
+  
             </div>
             <div class="card-body">
               <div class="type-price d-flex align-items-center justify-content-between">
@@ -637,9 +776,7 @@
               <div class="img-parent">
                 <img src="./assets/images/courseimg7.png" alt="">
               </div>
-              <!-- <div class="date">
-                2:00 مساءا
-              </div> -->
+  
             </div>
             <div class="card-body">
               <div class="type-price d-flex align-items-center justify-content-between">
@@ -672,9 +809,9 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
-  <div class="live-courses">
+  <!-- <div class="live-courses">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 col-xl-10 mx-auto">
@@ -707,9 +844,9 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
-  <div class="discount-courses">
+  <!-- <div class="discount-courses">
     <div class="container">
       <div class="discount-courses-wraper">
         <div class="head">
@@ -722,9 +859,7 @@
                 <div class="img-parent">
                   <img src="./assets/images/courseimg6.png" alt="">
                 </div>
-                <!-- <div class="date">
-                  2:00 مساءا
-                </div> -->
+   
               </div>
               <div class="card-body">
                 <div class="type-price d-flex align-items-center justify-content-between">
@@ -802,9 +937,7 @@
                 <div class="img-parent">
                   <img src="./assets/images/courseimg7.png" alt="">
                 </div>
-                <!-- <div class="date">
-                  2:00 مساءا
-                </div> -->
+    
               </div>
               <div class="card-body">
                 <div class="type-price d-flex align-items-center justify-content-between">
@@ -842,9 +975,7 @@
                 <div class="img-parent">
                   <img src="./assets/images/courseimg7.png" alt="">
                 </div>
-                <!-- <div class="date">
-                  2:00 مساءا
-                </div> -->
+     
               </div>
               <div class="card-body">
                 <div class="type-price d-flex align-items-center justify-content-between">
@@ -878,10 +1009,10 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
 
-  <div class="what-say">
+  <div class="what-say new-what-say">
     <div class="container">
       <div class="head">
         <h6>قالو عن</h6>
@@ -948,8 +1079,14 @@
     </div>
   </div>
 
+  <div class="mo3tmd-from"
+    style="background-image: url('./assets/images/kisspng-light-luminous-efficacy-purple-purple-wave-lines-light-effect-5a6acccac98f29.9413656015169486828256.png');">
+    <div class="container">
+      <img src="./assets/images/mo3tmd.png" alt="">
+    </div>
+  </div>
 
-
+  <!-- 
   <div class="watch_now_section">
     <div class="container">
 
@@ -1001,10 +1138,7 @@
                           <div class="img_parent">
                             <img src="./assets/images/courseimg10.png" alt="" />
                           </div>
-                          <!-- <a href="https://www.youtube.com/watch?v=m-y47CxfuVs&ab_channel=PresidenceTN"
-                                data-fancybox="gallery" rel="group1" class="play_btn play_btn_small">
-                                <i class="fas fa-play"></i>
-                              </a> -->
+           
                         </div>
                       </div>
                       <div class="wide_body">
@@ -1033,10 +1167,7 @@
                           <div class="img_parent">
                             <img src="./assets/images/courseimg11.png" alt="" />
                           </div>
-                          <!-- <a href="https://www.youtube.com/watch?v=m-y47CxfuVs&ab_channel=PresidenceTN"
-                                data-fancybox="gallery" rel="group1" class="play_btn play_btn_small">
-                                <i class="fas fa-play"></i>
-                              </a> -->
+
                         </div>
                       </div>
                       <div class="wide_body">
@@ -1065,10 +1196,7 @@
                           <div class="img_parent">
                             <img src="./assets/images/courseimg12.png" alt="" />
                           </div>
-                          <!-- <a href="https://www.youtube.com/watch?v=m-y47CxfuVs&ab_channel=PresidenceTN"
-                                data-fancybox="gallery" rel="group1" class="play_btn play_btn_small">
-                                <i class="fas fa-play"></i>
-                              </a> -->
+ 
                         </div>
                       </div>
                       <div class="wide_body">
@@ -1097,10 +1225,7 @@
                           <div class="img_parent">
                             <img src="./assets/images/courseimg6.png" alt="" />
                           </div>
-                          <!-- <a href="https://www.youtube.com/watch?v=m-y47CxfuVs&ab_channel=PresidenceTN"
-                                data-fancybox="gallery" rel="group1" class="play_btn play_btn_small">
-                                <i class="fas fa-play"></i>
-                              </a> -->
+         
                         </div>
                       </div>
                       <div class="wide_body">
@@ -1134,37 +1259,104 @@
       </div>
 
     </div>
-  </div>
+  </div> -->
 
 
   <div class="companies">
-    <div class="container">
+    <div class="container-fluid">
       <div class="head">
         <h5>شركاء النجاح</h5>
       </div>
-      <ul class="list-unstyled d-flex">
-        <li><a href=""><img src="./assets/images/logo1.png" alt=""></a></li>
-        <li><a href=""><img src="./assets/images/logo2.png" alt=""></a></li>
-        <li><a href=""><img src="./assets/images/logo3.png" alt=""></a></li>
-        <li><a href=""><img src="./assets/images/logo4.png" alt=""></a></li>
-        <li><a href=""><img src="./assets/images/logo5.png" alt=""></a></li>
-        <li><a href=""><img src="./assets/images/logo6.png" alt=""></a></li>
+      <ul class="list-unstyled companies-slider">
+        <li><a href=""><img src="./assets/images/logo11.png" alt=""></a></li>
+        <li><a href=""><img src="./assets/images/logo12.png" alt=""></a></li>
+        <li><a href=""><img src="./assets/images/logo13.png" alt=""></a></li>
+        <li><a href=""><img src="./assets/images/logo14.png" alt=""></a></li>
+        <li><a href=""><img src="./assets/images/logo15.png" alt=""></a></li>
+        <li><a href=""><img src="./assets/images/logo16.png" alt=""></a></li>
       </ul>
     </div>
   </div>
 
 
 
-  <footer class="footer">
-    <div class="footer-img">
-      <img src="./assets/images/footer-img.webp" alt="">
+  <div class="contact-us-page home-contact-us">
+    <div class="container">
+      <div class="head">
+        <h5>تواصل معنا</h5>
+      </div>
+      <div class="contact-wrapper">
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="contact-form">
+              <form action="">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <label for="">الاسم</label>
+                      <input type="text" name="" id="" class="form-control" placeholder="احمد علي ابراهيم">
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <label for="">الايميل</label>
+                      <input type="email" name="" id="" class="form-control" placeholder="ahmed@gmail.com">
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <label for="">الايميل</label>
+                      <input type="رقم الجوال" name="" id="" class="form-control" placeholder="966 0554 5674566">
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <label for="">الموضوع</label>
+                      <select name="" id="" class="custom-select">
+                        <option value="">استفتسار</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-12">
+                    <div class="form-group">
+                      <label for="">الرسالة</label>
+                      <textarea name="" class="form-control" id="" placeholder="اكتب رسالتك هنا" cols="30"
+                        rows="10"></textarea>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-12">
+                    <div class="btn-submit">
+                      <button class="btn-style">ارسال</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-5">
+
+            <div class="contact-img">
+              <img src="./assets/images/conimg.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
+
+
+  <footer class="footer custom-footer" style="background-image: url('./assets/images/footerbg.png');">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-sm-12 col-md-12 col-lg-5">
           <div class="footer_logo_content">
             <div class="footer_logo">
-              <img src="./assets/images/footerlogo.svg" alt="">
+              <img src="./assets/images/logo.svg" alt="">
             </div>
             <div class="footer_conten">
               <p>“لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور

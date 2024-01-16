@@ -49,6 +49,42 @@ $(document).ready(function () {
     })
   }
 
+  if($(".companies-slider").length){
+    $(".companies-slider").slick({
+      slidesToShow: 6,
+      rtl: currentDir == "rtl" ? true:false,
+      arrows: false,
+      dots: true,
+      slidesToScroll: 1,
+      autoplay: true,
+      infinite: true,
+      autoplaySpeed: 1000,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: false,
+          },
+        },
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 3,
+          },
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+          },
+        },
+      ],
+    })
+  }
+
 
   if ($(".watch_video_scrollable".length)) {
     $(".watch_video_scrollable").mCustomScrollbar({
@@ -103,7 +139,7 @@ $(document).ready(function () {
     });
   }
 
-  $(".custom-navbar #nav-icon1").click(function () {
+  $(".new_navbar #nav-icon1").click(function () {
     $(".side-nav").addClass("side-nav-open");
     $("html").addClass("side-active");
   });
