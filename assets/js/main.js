@@ -138,6 +138,43 @@ $(document).ready(function () {
         .attr("src", `./assets/images/${file_name}`);
     });
   }
+  
+  // course-titles-slider
+  if($(".course-titles-slider").length){
+    $(".course-titles-slider").slick({
+      slidesToShow: 1.6,
+      rtl: currentDir == "rtl" ? true:false,
+      arrows: false,
+      dots: true,
+      slidesToScroll: 1,
+      autoplay: true,
+      infinite: false,
+      autoplaySpeed: 5000,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow:1.6,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: false,
+          },
+        },
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 1,
+          },
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+          },
+        },
+      ],
+    })
+  }
 
   $(".new_navbar #nav-icon1").click(function () {
     $(".side-nav").addClass("side-nav-open");
