@@ -13,6 +13,17 @@ $(document).ready(function () {
     });
   }
 
+  if($(".new-header-slider").length){
+    $(".new-header-slider").slick({
+      arrows: false,
+      autoplay: true,
+      autoplaySpeed: 5000,
+      dots: false,
+      // rtl: true,
+      fade: false,
+    });
+  }
+
   if($(".most-courses-subsription-slider").length){
     $(".most-courses-subsription-slider").slick({
       slidesToShow: 3.4,

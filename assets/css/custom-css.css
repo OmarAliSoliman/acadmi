@@ -79,7 +79,44 @@
 .new_navbar .lang_pic .lang .nice-select .list .option {
   text-align: right;
 }
+.side-nav .accordion {
+  margin-bottom: 10px;
+  padding: 0;
+  border: 0;
+}
+.side-nav .accordion ul {
+  padding-right: 0;
+}
+.side-nav .accordion-button:not(.collapsed) {
+  background-color: transparent !important;
+  box-shadow: none;
+}
+.side-nav .accordion-item {
+  border: 0;
+}
+.side-nav .accordion-button {
+  border: 0;
+  padding: 10px 5px;
+  border-bottom: 1px solid #eee;
+}
+.side-nav .accordion-button:focus {
+  box-shadow: none;
+}
+
+.header .header-content {
+  padding-bottom: 0;
+  position: relative;
+  z-index: 5;
+}
 .header::after {
+  content: "";
+  background-image: unset;
+}
+.header .card-img {
+  align-items: center;
+  height: calc(100vh - 100px);
+}
+.header .card-img::after {
   background-color: rgba(0, 0, 0, 0.7);
   content: "";
   position: absolute;
@@ -89,12 +126,9 @@
   left: 0;
   background-image: none !important;
 }
-.header .header-content {
-  padding-bottom: 0;
-}
-.header .card-img {
-  align-items: center;
-  height: calc(100vh - 100px);
+.header .card-img::before {
+  content: "";
+  background-image: unset;
 }
 
 .new-who-us {
