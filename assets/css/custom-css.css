@@ -103,6 +103,14 @@
   box-shadow: none;
 }
 
+.new-courses-cards {
+  padding: 100px 0;
+}
+
+.course-card {
+  margin-bottom: 30px;
+}
+
 .header .header-content {
   padding-bottom: 0;
   position: relative;
@@ -162,6 +170,7 @@
 }
 .new-who-us .who-icons .icon_card {
   margin-bottom: 40px;
+  align-items: flex-start !important;
 }
 .new-who-us .who-icons .icon_card .card-body {
   margin-right: 20px;
@@ -173,6 +182,9 @@
 }
 .new-who-us .who-icons .icon_card .card-body p {
   font-size: 1rem;
+}
+.new-who-us .who-icons .icon_card .icon {
+  flex: none;
 }
 .new-who-us .who-icons .icon_card ul li {
   position: relative;
@@ -474,19 +486,92 @@
   border: 1px solid #212c80;
 }
 
-#video-represent .modal-dialog, #test-parent .modal-dialog {
+.file-downoads {
+  border: 1px solid rgba(112, 112, 112, 0.4);
+  padding: 23px 35px;
+  margin-bottom: 70px;
+  border-radius: 18px;
+}
+.file-downoads h5 {
+  font-size: 1.7rem;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+.file-downoads .t-button {
+  background-color: #009cdd;
+  padding: 13px;
+  border-radius: 5px;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.file-downoads .t-button i,
+.file-downoads .t-button span {
+  color: #fff;
+}
+.file-downoads .t-button span {
+  margin: 0 10px;
+}
+.file-downoads .t-button:hover {
+  background-color: rgba(0, 155, 221, 0.7725490196);
+}
+
+.new-who-us-page .new-who-us-page-header {
+  text-align: center;
+  padding: 50px;
+}
+.new-who-us-page .new-who-us-page-header h5 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-bottom: 36px;
+}
+.new-who-us-page .new-who-us-page-header h6 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-bottom: 36px;
+}
+.new-who-us-page .new-who-us-page-header p {
+  font-size: 1.1rem;
+  line-height: 30px;
+}
+.new-who-us-page .new-who-us::after {
+  display: none;
+}
+.new-who-us-page ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.new-who-us-page ul li {
+  width: 50%;
+}
+.new-who-us-page ul li p {
+  line-height: 30px;
+}
+.new-who-us-page ul li::before {
+  top: 6px !important;
+}
+
+#video-represent .modal-dialog,
+#test-parent .modal-dialog {
   width: 1286px;
   max-width: 100%;
   margin: auto;
 }
-#video-represent .modal-dialog .card-img, #test-parent .modal-dialog .card-img {
+#video-represent .modal-dialog .card-img,
+#test-parent .modal-dialog .card-img {
   height: 535px;
   border-radius: 26px;
 }
-#video-represent .modal-dialog .card-img img, #test-parent .modal-dialog .card-img img {
+#video-represent .modal-dialog .card-img img,
+#test-parent .modal-dialog .card-img img {
   border-radius: 26px;
 }
-#video-represent .modal-dialog .card-img .play, #test-parent .modal-dialog .card-img .play {
+#video-represent .modal-dialog .card-img .play,
+#test-parent .modal-dialog .card-img .play {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -500,28 +585,34 @@
   justify-content: center;
   border-radius: 50%;
 }
-#video-represent .modal-dialog .card-img .play i, #test-parent .modal-dialog .card-img .play i {
+#video-represent .modal-dialog .card-img .play i,
+#test-parent .modal-dialog .card-img .play i {
   color: #fff;
   font-size: 2.5rem;
 }
-#video-represent .modal-dialog .card-img .play img, #test-parent .modal-dialog .card-img .play img {
+#video-represent .modal-dialog .card-img .play img,
+#test-parent .modal-dialog .card-img .play img {
   border-radius: 50%;
 }
-#video-represent .modal-dialog .modal-content, #test-parent .modal-dialog .modal-content {
+#video-represent .modal-dialog .modal-content,
+#test-parent .modal-dialog .modal-content {
   border-radius: 33px;
 }
-#video-represent .modal-dialog .modal-content h5, #test-parent .modal-dialog .modal-content h5 {
+#video-represent .modal-dialog .modal-content h5,
+#test-parent .modal-dialog .modal-content h5 {
   font-size: 1.8rem;
   margin-bottom: 30px;
   text-align: center;
   color: #009cdd;
   font-family: sukarbo;
 }
-#video-represent .modal-dialog .modal-body, #test-parent .modal-dialog .modal-body {
+#video-represent .modal-dialog .modal-body,
+#test-parent .modal-dialog .modal-body {
   padding: 50px 70px;
 }
-#video-represent .modal-dialog .btn-styl, #test-parent .modal-dialog .btn-styl {
-  background-color: #009DDE;
+#video-represent .modal-dialog .btn-styl,
+#test-parent .modal-dialog .btn-styl {
+  background-color: #009dde;
   width: 200px;
   max-width: 100%;
   color: #fff;
@@ -536,6 +627,36 @@
 }
 #test-parent p {
   font-size: 2rem;
+}
+
+.courses-videos .details-contetn h5 span {
+  color: #5e5e5e;
+}
+
+.new-video-card {
+  margin-bottom: 35px;
+}
+.new-video-card .card-img {
+  height: 287px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+.new-video-card .card-img img {
+  border-radius: 4px;
+}
+.new-video-card .card-img .play-btn-card {
+  position: relative;
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  background-color: rgba(0, 155, 221, 0.6784313725);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 991px) {
@@ -557,6 +678,12 @@
   .new_navbar .lang_pic {
     display: none !important;
   }
+  .new-who-us .who-icons .icon_card ul li {
+    width: 100%;
+  }
+  .new-who-us .who-icons .icon_card {
+    flex-direction: column;
+  }
   .home-contact-us .contact-img {
     margin: auto;
     text-align: center;
@@ -576,7 +703,8 @@
   .new-course-details .course-titles .get-test {
     flex-direction: column;
   }
-  #video-represent .modal-dialog .modal-body, #test-parent .modal-dialog .modal-body {
+  #video-represent .modal-dialog .modal-body,
+  #test-parent .modal-dialog .modal-body {
     padding: 20px;
   }
 }/*# sourceMappingURL=custom-css.css.map */
