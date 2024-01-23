@@ -206,7 +206,7 @@
           font-size: 1rem;
         }
       }
-      .icon{
+      .icon {
         flex: none;
       }
       ul {
@@ -541,12 +541,12 @@
   }
 }
 
-.file-downoads{
-  border: 1px solid rgba(112, 112, 112, .40);
+.file-downoads {
+  border: 1px solid rgba(112, 112, 112, 0.4);
   padding: 23px 35px;
   margin-bottom: 70px;
   border-radius: 18px;
-  h5{
+  h5 {
     font-size: 1.7rem;
     margin-bottom: 20px;
     font-weight: 800;
@@ -567,46 +567,46 @@
     span {
       margin: 0 10px;
     }
-    &:hover{
-      background-color: #009bddc5;;
+    &:hover {
+      background-color: #009bddc5;
     }
   }
 }
 
-.new-who-us-page{
-  .new-who-us-page-header{
+.new-who-us-page {
+  .new-who-us-page-header {
     text-align: center;
     padding: 50px;
-    h5{
+    h5 {
       font-size: 1.8rem;
       font-weight: 800;
       margin-bottom: 36px;
     }
-    h6{
+    h6 {
       font-size: 1.8rem;
       font-weight: 800;
       margin-bottom: 36px;
     }
-    p{
+    p {
       font-size: 1.1rem;
       line-height: 30px;
     }
   }
-  .new-who-us{
-    &::after{
+  .new-who-us {
+    &::after {
       display: none;
     }
   }
-  ul{
+  ul {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    li{
+    li {
       width: 50%;
-      p{
+      p {
         line-height: 30px;
       }
-      &::before{
+      &::before {
         top: 6px !important;
       }
     }
@@ -720,6 +720,47 @@
   }
 }
 
+.new-services-page {
+  padding: 55px 0 103px 0;
+  .section_header {
+    text-align: center;
+    h5 {
+      font-weight: 700;
+    }
+    p {
+      color: #5e5e5e;
+      line-height: 30px;
+    }
+  }
+}
+.new-serv-card {
+  background-color: #f3f3f3;
+  padding: 31px 24px;
+  margin-top: 73px;
+  border-radius: 17px;
+  h5 {
+    color: #212c80;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  .card-text{
+    margin-top: 10px;
+    line-height: 30px;
+    font-size: .9rem;
+    @extend %spcfies-number-of-line;
+    -webkit-line-clamp: 4 !important;
+  }
+  .btn-style{
+    background-color: #009dde;
+    color: #fff;
+    border-radius: 15px;
+    padding: 0;
+    border: 0;
+    font-size: 1rem;
+    padding: 10px 50px;
+  }
+}
+
 @media (max-width: 991px) {
   .new-who-us::after {
     display: none;
@@ -743,10 +784,10 @@
       display: none !important;
     }
   }
-  .new-who-us .who-icons .icon_card ul li{
+  .new-who-us .who-icons .icon_card ul li {
     width: 100%;
   }
-  .new-who-us .who-icons .icon_card{
+  .new-who-us .who-icons .icon_card {
     flex-direction: column;
   }
   .home-contact-us {
@@ -774,4 +815,12 @@
   #test-parent .modal-dialog .modal-body {
     padding: 20px;
   }
+}
+
+%spcfies-number-of-line {
+  overflow: hidden;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
 }
